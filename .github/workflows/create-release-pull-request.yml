@@ -1,9 +1,7 @@
 name: Create release PR
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
   create-release-pull-request:
